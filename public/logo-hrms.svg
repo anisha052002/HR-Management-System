@@ -1,0 +1,26 @@
+<svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <style>
+      .primary{fill:#0B4AA2}
+      .stroke{stroke:#0B4AA2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <!-- Building -->
+  <rect x="16" y="20" width="64" height="56" rx="6" class="stroke"/>
+  <path d="M24 28h16M24 38h16M24 48h16M24 58h16" class="stroke"/>
+  <path d="M56 28h16M56 38h16M56 48h16M56 58h16" class="stroke"/>
+  <rect x="44" y="60" width="8" height="16" class="primary" rx="1"/>
+  <!-- People (manager, HR, employee) -->
+  <g transform="translate(16,4)">
+    <circle cx="16" cy="56" r="5" class="primary"/>
+    <path d="M8 70c0-5 4-9 8-9s8 4 8 9" class="stroke"/>
+  </g>
+  <g transform="translate(32,0)">
+    <circle cx="16" cy="56" r="6" class="primary"/>
+    <path d="M6 72c0-6 5-11 10-11s10 5 10 11" class="stroke"/>
+  </g>
+  <g transform="translate(48,4)">
+    <circle cx="16" cy="56" r="5" class="primary"/>
+    <path d="M8 70c0-5 4-9 8-9s8 4 8 9" class="stroke"/>
+  </g>
+</svg>
